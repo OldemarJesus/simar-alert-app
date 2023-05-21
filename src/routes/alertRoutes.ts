@@ -13,6 +13,9 @@ export async function AlertRoutes(app: FastifyInstance){
         id: true,
         description: true,
         target_date: true
+      },
+      orderBy: {
+        target_date: "desc"
       }
     })
   })

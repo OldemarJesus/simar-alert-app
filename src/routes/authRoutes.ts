@@ -62,7 +62,7 @@ export async function AuthRoutes(app: FastifyInstance) {
     }
   });
 
-  app.get("/login", async (request, reply) => {
+  app.post("/login", async (request, reply) => {
     try {
       // validate body
       const bodySchema = z.object({
