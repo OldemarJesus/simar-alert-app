@@ -1,15 +1,15 @@
 {
   "name": "simar-works-alerts",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project permit your to fetch alerts from SIMAR WEB site store it in local database and serve with REST API protected by JWT token",
   "main": "script-to-get-list-of-alerts.js",
   "scripts": {
     "dev": "tsx watch src/app.ts",
     "retrieve": "tsx src/scripts/retrive-data-from-simar-to-db.ts"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "https://github.com/OldemarJesus",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.2.1",
     "eslint": "^8.41.0",
