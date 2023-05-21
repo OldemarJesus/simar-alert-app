@@ -16,3 +16,10 @@ model Alerts {
   target_date DateTime
   description String
 }
+
+model User {
+  id       String @id @default(uuid())
+  email    String @unique
+  name     String
+  password String
+}
