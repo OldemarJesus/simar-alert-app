@@ -1,0 +1,25 @@
+{
+  "name": "simar-works-alerts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script-to-get-list-of-alerts.js",
+  "scripts": {
+    "dev": "tsx src/app.ts",
+    "retrieve": "tsx src/scripts/retrive-data-from-simar-to-db.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "eslint": "^8.41.0",
+    "prisma": "^4.14.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.14.1",
+    "axios": "^1.4.0",
+    "node-html-parser": "^6.1.5"
+  }
+}
